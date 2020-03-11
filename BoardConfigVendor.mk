@@ -12,5 +12,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# File from device/oppo/CPH1861/setup-makefiles.sh
+# File from device/oppo/CPH1859/setup-makefiles.sh
 

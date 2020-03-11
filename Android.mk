@@ -12,11 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# File from device/oppo/CPH1861/setup-makefiles.sh
+# File from device/oppo/CPH1859/setup-makefiles.sh
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),CPH1861)
+ifeq ($(TARGET_DEVICE),CPH1859)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := SoterService
