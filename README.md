@@ -1,4 +1,4 @@
-# proprietary_vendor_oppo_CPH1861
+# proprietary_vendor_oppo_CPH1859
 Vendor Tree for Oppo Realme 1
 
 ### Spec Sheet
