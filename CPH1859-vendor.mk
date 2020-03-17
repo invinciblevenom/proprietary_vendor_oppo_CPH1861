@@ -97,6 +97,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/framework/mediatek-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-common.jar \
 	vendor/oppo/CPH1859/proprietary/framework/mediatek-framework.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-framework.jar \
 	vendor/oppo/CPH1859/proprietary/framework/mediatek-framework-net.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-framework-net.jar \
+	vendor/oppo/CPH1859/proprietary/framework/mediatek-ims-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-common.jar \
 	vendor/oppo/CPH1859/proprietary/framework/mediatek-ims-extension-plugin.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-extension-plugin.jar \
 	vendor/oppo/CPH1859/proprietary/framework/mediatek-services.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-services.jar \
 	vendor/oppo/CPH1859/proprietary/framework/mediatek-telecom-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-telecom-common.jar \
