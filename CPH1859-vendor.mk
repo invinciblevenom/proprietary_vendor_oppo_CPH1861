@@ -65,6 +65,10 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/bin/tinyplay:$(TARGET_COPY_OUT_SYSTEM)/bin/tinyplay \
 	vendor/oppo/CPH1859/proprietary/bin/tunman:$(TARGET_COPY_OUT_SYSTEM)/bin/tunman \
 	vendor/oppo/CPH1859/proprietary/bin/wmt_check_patch:$(TARGET_COPY_OUT_SYSTEM)/bin/wmt_check_patch \
+	vendor/oppo/CPH1859/proprietary/bin/gsm0710muxd:$(TARGET_COPY_OUT_SYSTEM)/bin/gsm0710muxd \
+	vendor/oppo/CPH1859/proprietary/bin/volte_imcb:$(TARGET_COPY_OUT_SYSTEM)/bin/volte_imcb\
+	vendor/oppo/CPH1859/proprietary/bin/volte_stack:$(TARGET_COPY_OUT_SYSTEM)/bin/volte_stack \
+	vendor/oppo/CPH1859/proprietary/bin/volte_ua:$(TARGET_COPY_OUT_SYSTEM)/bin/volte_ua \
 	vendor/oppo/CPH1859/proprietary/etc/init/aee_aed.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/aee_aed.rc \
 	vendor/oppo/CPH1859/proprietary/etc/init/aee_aed64.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/aee_aed64.rc \
 	vendor/oppo/CPH1859/proprietary/etc/init/common_dcs.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/common_dcs.rc \
@@ -202,10 +206,13 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/lib/libtinyxmlbp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinyxmlbp.so \
 	vendor/oppo/CPH1859/proprietary/lib/libudf.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libudf.so \
 	vendor/oppo/CPH1859/proprietary/lib/libui.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libui.so \
+	vendor/oppo/CPH1859/proprietary/lib/libril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libril.so \
+	vendor/oppo/CPH1859/proprietary/lib/libcarrierconfig.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcarrierconfig.so \
 	vendor/oppo/CPH1859/proprietary/lib/libui_ext_fwk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libui_ext_fwk.so \
 	vendor/oppo/CPH1859/proprietary/lib/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvt_avsync.so \
 	vendor/oppo/CPH1859/proprietary/lib/libwatchdog.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwatchdog.so \
 	vendor/oppo/CPH1859/proprietary/lib/libz.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libz.so \
+	vendor/oppo/CPH1859/proprietary/lib/libc2kutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libc2kutils.so \
 	vendor/oppo/CPH1859/proprietary/lib/vendor.oppo.hardware.biometrics.face@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.oppo.hardware.biometrics.face@1.0.so \
 	vendor/oppo/CPH1859/proprietary/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
 	vendor/oppo/CPH1859/proprietary/lib64/drm/mtkdrm/libdrmctaplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/drm/mtkdrm/libdrmctaplugin.so \
@@ -243,6 +250,9 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/lib64/libdualcalibration_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdualcalibration_jni.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libeeprom_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libeeprom_jni.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libelsa.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libelsa.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk-ril.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libreference-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libreference-ril.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libvia-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvia-ril.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libem_aal_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_aal_jni.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libem_audio_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_audio_jni.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libem_gpio_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_gpio_jni.so \
@@ -320,6 +330,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/lib64/libui_ext_fwk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libui_ext_fwk.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvt_avsync.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libwatchdog.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwatchdog.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libc2kutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libc2kutils.so \
 	vendor/oppo/CPH1859/proprietary/lib/libz.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libz.so \
 	vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.camera.camdump@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.camera.camdump@1.0.so \
 	vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.lbs@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.lbs@1.0.so \
