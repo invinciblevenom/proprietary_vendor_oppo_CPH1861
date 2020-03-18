@@ -104,6 +104,9 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/framework/mediatek-ims-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-common.jar \
 	vendor/oppo/CPH1859/proprietary/framework/mediatek-ims-extension-plugin.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-extension-plugin.jar \
 	vendor/oppo/CPH1859/proprietary/framework/mediatek-services.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-services.jar \
+	vendor/oppo/CPH1859/proprietary/framework/ims-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/ims-common.jar \
+	vendor/oppo/CPH1859/proprietary/framework/telecom.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/telecom.jar \
+	vendor/oppo/CPH1859/proprietary/framework/telephony-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/telephony-common.jar \
 	vendor/oppo/CPH1859/proprietary/framework/mediatek-telecom-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-telecom-common.jar \
 	vendor/oppo/CPH1859/proprietary/framework/mediatek-telephony-base.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-telephony-base.jar \
 	vendor/oppo/CPH1859/proprietary/framework/mediatek-telephony-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-telephony-common.jar \
