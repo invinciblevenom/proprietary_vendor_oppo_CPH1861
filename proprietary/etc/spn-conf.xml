@@ -1099,7 +1099,7 @@
 <spnOverride numeric="42102" spn="MTN"/>
 <spnOverride numeric="42104" spn="Y-Telecom"/>
 <spnOverride numeric="42202" spn="Omantel"/>
-<spnOverride numeric="42203" spn="Ooredoo Oman"/>
+<spnOverride numeric="42203" spn="Ooredoo"/>
 <spnOverride numeric="42402" spn="etisalat"/>
 <spnOverride numeric="42403" spn="du"/>
 <spnOverride numeric="42501" spn="Partner IL"/>
@@ -1432,7 +1432,7 @@
 <spnOverride numeric="51401" spn="TLS-TC"/>
 <spnOverride numeric="51402" spn="TLS-TT"/>
 <spnOverride numeric="51501" spn="ISLACOM"/>
-<spnOverride numeric="51502" spn="Globe Telecom-PH"/>
+<spnOverride numeric="51502" spn="GLOBE"/>
 <spnOverride numeric="51503" spn="SMART"/>
 <spnOverride numeric="51505" spn="PH Sun Cellular"/>
 <spnOverride numeric="51511" spn="ACeS"/>
@@ -1494,7 +1494,7 @@
 <spnOverride numeric="60201" spn="Orange EG"/>
 <spnOverride numeric="60202" spn="vodafone EG"/>
 <spnOverride numeric="60203" spn="Etisalat"/>
-<spnOverride numeric="60204" spn="EGYwe"/>
+<spnOverride numeric="60204" spn="we"/>
 <spnOverride numeric="60301" spn="ALG Mobilis"/>
 <spnOverride numeric="60302" spn="Djezzy"/>
 <spnOverride numeric="60303" spn="ooredoo Algeria"/>
@@ -1769,5 +1769,4 @@
 <spnOverride numeric="90145" spn="AISatSea"/>
 <spnOverride numeric="90146" spn="Telecom26"/>
 <spnOverride numeric="90150" spn="EchoStar Mobile"/>
-<spnOverride numeric="99999" spn="AD"/>
 </spnOverrides>
