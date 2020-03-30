@@ -337,6 +337,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/lib64/libwatchdog.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwatchdog.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libc2kutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libc2kutils.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libz.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libz.so \
+	vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.radio@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.radio@3.0.so \
 	vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.camera.camdump@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.camera.camdump@1.0.so \
 	vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.lbs@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.lbs@1.0.so \
 	vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
