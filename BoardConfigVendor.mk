@@ -13,4 +13,3 @@
 # limitations under the License.
 
 # File from device/oppo/CPH1859/setup-makefiles.sh
-
