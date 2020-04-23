@@ -33,7 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/bin/datafree:$(TARGET_COPY_OUT_SYSTEM)/bin/datafree \
     vendor/oppo/CPH1859/proprietary/bin/em_svr:$(TARGET_COPY_OUT_SYSTEM)/bin/em_svr \
     vendor/oppo/CPH1859/proprietary/bin/fsck_exfat:$(TARGET_COPY_OUT_SYSTEM)/bin/fsck_exfat \
-    vendor/oppo/CPH1859/proprietary/bin/fsck_f2fs:$(TARGET_COPY_OUT_SYSTEM)/bin/fsck_f2fs \
+    vendor/oppo/CPH1859/proprietary/bin/fsck.f2fs:$(TARGET_COPY_OUT_SYSTEM)/bin/fsck.f2fs \
     vendor/oppo/CPH1859/proprietary/bin/ged_srv:$(TARGET_COPY_OUT_SYSTEM)/bin/ged_srv \
     vendor/oppo/CPH1859/proprietary/bin/iozone:$(TARGET_COPY_OUT_SYSTEM)/bin/iozone \
     vendor/oppo/CPH1859/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
