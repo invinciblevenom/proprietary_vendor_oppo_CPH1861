@@ -91,8 +91,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/etc/init/terserver.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/terserver.rc \
     vendor/oppo/CPH1859/proprietary/etc/permissions/org.ifaa.android.manager.permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.ifaa.android.manager.permissions.xml \
     vendor/oppo/CPH1859/proprietary/etc/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.telephony.cdma.xml \
-	vendor/oppo/CPH1859/proprietary/etc/permissions/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.telephony.gsm.xml \
-	vendor/oppo/CPH1859/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.simalliance.openmobileapi.xml \
+    vendor/oppo/CPH1859/proprietary/etc/permissions/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.telephony.gsm.xml \
+    vendor/oppo/CPH1859/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.simalliance.openmobileapi.xml \
+    vendor/oppo/CPH1859/proprietary/etc/permissions/android.hardware.camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.camera.xml \
     vendor/oppo/CPH1859/proprietary/etc/sar_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sar_config.xml \
     vendor/oppo/CPH1859/proprietary/etc/spn-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/spn-conf.xml \
     vendor/oppo/CPH1859/proprietary/framework/CustomPropInterface.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/CustomPropInterface.jar \
