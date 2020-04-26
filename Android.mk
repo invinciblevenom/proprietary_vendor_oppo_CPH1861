@@ -18,4 +18,15 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),CPH1859)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := SoterService
+LOCAL_MODULE_OWNER := oppo
+LOCAL_SRC_FILES := proprietary/app/SoterService/SoterService.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
 endif
