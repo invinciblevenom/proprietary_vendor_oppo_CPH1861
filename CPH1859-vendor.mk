@@ -18,11 +18,11 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oppo/CPH1859
 
 PRODUCT_COPY_FILES += \
-    vendor/oppo/CPH1859/proprietary/bin/iwpriv:$(TARGET_COPY_OUT_SYSTEM)/bin/iwpriv \
-    vendor/oppo/CPH1859/proprietary/framework/vendor.qti.hardware.soter-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.hardware.soter-V1.0-java.jar \
-    vendor/oppo/CPH1859/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
-    vendor/oppo/CPH1859/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
-    vendor/oppo/CPH1859/proprietary/lib64/vendor.qti.hardware.soter@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.soter@1.0.so \
+    vendor/oppo/CPH1859/proprietary/bin/iwpriv:$(TARGET_COPY_OUT_SYSTEM)system/bin/iwpriv \
+    vendor/oppo/CPH1859/proprietary/framework/vendor.qti.hardware.soter-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)system/framework/vendor.qti.hardware.soter-V1.0-java.jar \
+    vendor/oppo/CPH1859/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)system/lib64/libaptXHD_encoder.so \
+    vendor/oppo/CPH1859/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)system/lib64/libaptX_encoder.so \
+    vendor/oppo/CPH1859/proprietary/lib64/vendor.qti.hardware.soter@1.0.so:$(TARGET_COPY_OUT_SYSTEM)system/lib64/vendor.qti.hardware.soter@1.0.so \
     vendor/oppo/CPH1859/proprietary/bin/AudioSetParam:$(TARGET_COPY_OUT_SYSTEM)/bin/AudioSetParam \
     vendor/oppo/CPH1859/proprietary/bin/aee:$(TARGET_COPY_OUT_SYSTEM)/bin/aee \
     vendor/oppo/CPH1859/proprietary/bin/aee_aed:$(TARGET_COPY_OUT_SYSTEM)/bin/aee_aed \
