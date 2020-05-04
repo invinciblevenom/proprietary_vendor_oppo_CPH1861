@@ -335,5 +335,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.lbs@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.lbs@1.0.so \
     vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.power@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.power@2.0.so \
     vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.radio@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.radio@3.0.so \
+    vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.radio@3.12.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.radio@3.12.so \
     vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/oppo/CPH1859/proprietary/lib64/vendor.oppo.hardware.biometrics.face@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.oppo.hardware.biometrics.face@1.0.so
