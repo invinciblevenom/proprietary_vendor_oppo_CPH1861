@@ -19,11 +19,11 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_SYSTEM)/bin/hw/mtkfusionrild \
-	vendor/oppo/CPH1859/proprietary/bin/ged_srv:$(TARGET_COPY_OUT_SYSTEM)/bin/ged_srv \
+    vendor/oppo/CPH1859/proprietary/bin/ged_srv:$(TARGET_COPY_OUT_SYSTEM)/bin/ged_srv \
     vendor/oppo/CPH1859/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/oppo/CPH1859/proprietary/bin/lcdc_screen_cap:$(TARGET_COPY_OUT_SYSTEM)/bin/lcdc_screen_cap \
     vendor/oppo/CPH1859/proprietary/bin/netdiag:$(TARGET_COPY_OUT_SYSTEM)/bin/netdiag \
-	vendor/oppo/CPH1859/proprietary/bin/mtk_agpsd:$(TARGET_COPY_OUT_SYSTEM)/bin/mtk_agpsd \
+    vendor/oppo/CPH1859/proprietary/bin/mtk_agpsd:$(TARGET_COPY_OUT_SYSTEM)/bin/mtk_agpsd \
     vendor/oppo/CPH1859/proprietary/bin/rutilsdaemon:$(TARGET_COPY_OUT_SYSTEM)/bin/rutilsdaemon \
     vendor/oppo/CPH1859/proprietary/bin/self-init-system:$(TARGET_COPY_OUT_SYSTEM)/bin/self-init-system \
     vendor/oppo/CPH1859/proprietary/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/a2dp_audio_policy_configuration.xml \
